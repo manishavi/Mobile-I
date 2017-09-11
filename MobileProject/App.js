@@ -1,18 +1,12 @@
 import React from 'react';
-import { 
-  StyleSheet, 
-  Text, 
-  View,
-  Image,
-  Button,
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.header}>Header</Text>
-        <Image 
+        <Image
           style={styles.topImage}
           source={{ uri: 'http://eliteescapestravel.com/wp-content/uploads/sites/40/2016/02/cool_island_hawaii.png' }} />
         <View style={styles.buttonRow}>
